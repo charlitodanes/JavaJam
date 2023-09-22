@@ -1,23 +1,25 @@
 <!--
     Author: Charlito Abrahm C. Danes
-    Description: JAVAJAM: Chapter 12 Website Case Study
+    Description: JavaJam Coffee House
     Date: December 10, 2022
     Version: 1.0
 -->
 <!DOCTYPE html>
 <html lang ="en">
-    <head>
-        <title>JavaJam Coffee House Jobs</title>
-        <link href="javajam.css" rel="stylesheet">
-        <link rel="icon" href="./assets/img/favicon.png" type="image/x-icon">
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaJam Coffee House Jobs</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" href="./assets/img/favicon.png" type="image/x-icon">
+  </head>
 <body>
-        <div id="wrapper">
+<div id="wrapper">
+
 <header>
-    <h1>JavaJam Coffee House</h1>
+  <h1>JavaJam Coffee House</h1>
 </header>
+
 <nav>
     <ul>
        <li><a href = "index.html">Home</a></li>
@@ -27,36 +29,41 @@
        <li><a href = "gear.html">Gear</a></li>
     </ul>
 </nav>
+
 <main>
     <div id = "herojobs"></div>
     <h2><b>Jobs at JavaJam</b></h2>
     <p>Want to work at JavaJam? Fill out the form below to start your application.<br>
         Required fields are marked with an asterik(*).
     </p>
-    <form method="post" action="https://webdevbasics.net/scripts/javajam8.php">
-        <label for="myName">*Name:</label>
+    <!-- https://webdevbasics.net/scripts/javajam8.php -->
+    <form method="GET" action="https://charlitodanes.me/error404/error404.html"> 
+        <label for="myName">Name:</label>  
         <input type="text" name="myName" id="myName" required="required">
 
-        <label for="myEmail">*E-mail:</label>
+        <label for="myEmail">E-mail:</label>
         <input type="email" name="myEmail" id="myEmail" required="required">
 
-        <label for="myExperience">*Experience:</label>
+        <label for="myExperience">Experience:</label>
         <textarea name="myExperience" id="myExperience" rows="2" cols="20" required="required"></textarea>
 
         <input id="mySubmit" type="submit" value="Apply Now">
     </form>
 </main>
+
 <footer>
-    <p>Copyright &copy; 2018 JavaJam Coffee House<br>
-        <a href = "">charlitoabrahm@danes.com</a>
-        <div>
-            <h5>This page was last modified on: 
-            <script>
-                document.write(document.lastModified);
-            </script>
-            </h5>
-        </div>
-    </p>
+  <p>Copyright &copy; 2022 JavaJam Coffee House<br>
+    <a href = "https://charlitodanes.me/error404/error404.html">charlitoabrahm@danes.com</a>
+    <div>
+      <h5>This page was last modified on: 
+      <script>
+          document.write(document.lastModified);
+      </script>
+      </h5>
+    </div>
+  </p>
 </footer>
+
+</div>
 </body>
 </html>

@@ -1,23 +1,25 @@
 <!--
     Author: Charlito Abrahm C. Danes
-    Description: JAVAJAM: Chapter 14 Website Case Study
+    Description: JavaJam Coffee House
     Date: December 14, 2022
     Version: 1.0
 -->
 <!DOCTYPE html>
 <html lang ="en">
-    <head>
-        <title>JavaJam Coffee House Menu</title>
-        <link href="javajam.css" rel="stylesheet">
-        <link rel="icon" href="./assets/img/favicon.png" type="image/x-icon">
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaJam Coffee House Menu</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" href="./assets/img/favicon.png" type="image/x-icon">
+  </head>
 <body>
-        <div id="wrapper">
+<div id="wrapper">  
+
 <header>
-    <h1>JavaJam Coffee House</h1>
+  <h1>JavaJam Coffee House</h1>
 </header>
+
 <nav>
     <ul>
        <li><a href = "index.html">Home</a></li>
@@ -27,10 +29,11 @@
        <li><a href = "gear.html">Gear</a></li>
     </ul>
 </nav>
+
 <main>
     <div id = "heromugs"></div>
     <h2><b>Coffee at JavaJam</b></h2>
-    <p>Indulge in our locally roasted free-trade coffee and enjoy the aroma, the smooth taste, the caffeine! Join our <a href="#" onmouseover="alert('JavaJam Mug Club Members get a 10% discount on each cup of coffee!')">Mug Club</a> and get a 10% discount on each cup of coffee you purchase &mdash; ask the barista for details.</p>
+    <p>Indulge in our locally roasted free-trade coffee and enjoy the aroma, the smooth taste, the caffeine! Join our <a href="#" id="mugclub" onmouseover="alert('JavaJam Mug Club Members get a 10% discount on each cup of coffee!')">Mug Club</a> and get a 10% discount on each cup of coffee you purchase &mdash; ask the barista for details.</p>
     <table>
         <tr>
             <th>Just Java</th>
@@ -49,19 +52,22 @@
             <td>Sweetened espresso blended with icy-cold milk and served in a chilled glass.<br>
                 Single $4.75 Double $6.00</td>
         </tr>
-    </table>
+    </table> 
 </main>
+
 <footer>
-    <p>Copyright &copy; 2018 JavaJam Coffee House<br>
-        <a href = "">charlitoabrahm@danes.com</a>
-        <div>
-            <h5>This page was last modified on: 
-            <script>
-                document.write(document.lastModified);
-            </script>
-            </h5>
-        </div>
-    </p>
+  <p>Copyright &copy; 2022 JavaJam Coffee House<br>
+    <a href = "https://charlitodanes.me/error404/error404.html">charlitoabrahm@danes.com</a>
+    <div>
+      <h5>This page was last modified on: 
+      <script>
+          document.write(document.lastModified);
+      </script>
+      </h5>
+    </div>
+  </p>
 </footer>
+
+</div>
 </body>
 </html>
